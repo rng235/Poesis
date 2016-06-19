@@ -1,0 +1,26 @@
+<script type="text/javascript" src="javascripts/archive.js"></script>
+
+<body style="background-color: #bbbbbb">
+
+<br>
+<div class=container>
+    <h2> Poetry Archive</h2>
+    <div class="page-header"></div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    {{#each list}}
+        <h3>{{this.title}}</h3>
+        <h4>{{this.author}}</h4>
+        <br><br>
+        {{#each this.lines}}
+            <p>{{this}}</p>
+        {{/each}}
+        <div class="page-header"></div>
+        <div class="page-header"></div>
+    {{/each}}
+</div>
+
+</body>

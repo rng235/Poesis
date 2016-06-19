@@ -1,0 +1,21 @@
+<script type="text/javascript" src="javascripts/archive.js"></script>
+
+<body style="background-color: #bbbbbb">
+
+<br>
+<div class = container>
+    <h2> Poetry Archive</h2>
+    <div class="page-header"></div>
+</div>
+
+<br><br><br>
+
+<div class = "container">
+    <h2>Authors</h2>
+<ul class = "list-group" style = "border-radius: 3px">
+    {{#each authorList.authors}}
+                <li class = "list-group-item"><a href="/archive/{{{this}}}">{{this}}</a></li>
+    {{/each}}
+</ul>
+</div>
+</body>

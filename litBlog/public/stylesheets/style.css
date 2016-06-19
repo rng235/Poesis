@@ -1,0 +1,164 @@
+body {
+    /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.white-space-pre {
+    white-space: pre-wrap;
+}
+
+p {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+form {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Courier New";
+    background-size: 400px 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+
+}
+
+.jumbotron-background {
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    height: 380px;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: "Courier New";
+    line-height: 390px;
+}
+
+span {
+    font-size: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    z-index: 50;
+}
+
+#headerContainer {
+    background-color: tomato;
+    background-position: center;
+    align-self: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 280px;
+    height: 85px;
+}
+
+#contentContainer {
+    background-color: #bbbbbb;
+    align-self: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 1000px;
+    height: 500px;
+}
+
+.form-background {
+    align-self: center;
+    height: 380px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 390px;
+    padding-top: 35px;
+
+}
+
+#formContainer {
+    background-color: white;
+    background-position: center;
+    align-self: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 840px;
+    height: 380px;
+    border: solid tomato;
+    border-radius: 5px;
+}
+
+.poem {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.coolBorder {
+    border: solid rgba(107, 107, 107, 0.61);
+}
+
+.form-horizontal {
+    margin: 0 auto;
+    width: 180px;
+}
+
+div.justified {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+span.glyphicon-user {
+    font-size: 1.4em
+}
+
+span.glyphicon-log-in {
+    font-size: 1.4em
+}
+
+.poemTitle {
+    margin: 0px;
+}
+
+.poemAuthor {
+    margin-bottom: 10px;
+}
+
+.photoDiv {
+    float: left;
+}
+
+.aboutMePic {
+    width: 300px;
+    height: 400px;
+    margin-right: 25px;
+}
+
+.list-group-item {
+    background-color: tomato;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
