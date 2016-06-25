@@ -56,7 +56,10 @@ mongoose.model('userPoem', userPoem);
 //mongoose.model('favoriteList', favoriteList);
 
 //For Local Testing
-mongoose.connect('mongodb://localhost/final');
+//mongoose.connect('mongodb://localhost/final');
+
+//For heroku deployment
+mongoose.connect('mongodb://rng235:Firecold1@ds023054.mlab.com:23054/heroku_x91l02fz');
 
 //For i6 Deployment
 //mongoose.connect('mongodb://rng235:J28jZT92@class-mongodb.cims.nyu.edu/rng235');

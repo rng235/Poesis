@@ -4,7 +4,7 @@
   "description": "Literature Blog",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node /bin/www"
   },
   "repository": {
     "type": "git",
